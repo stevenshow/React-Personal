@@ -1,5 +1,5 @@
 .jumbotron{
-    background-image: url(../images/foggy_trees.jpeg);
+    background-image: url(../images/foggy_trees_2.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% auto;
@@ -9,8 +9,10 @@
 
 .display-3{
     color: gray;
+    color: white;
 }
 
 .lead{
     color: rgb(61, 61, 61);
+    color: white;
 }
