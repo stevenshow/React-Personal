@@ -8,7 +8,7 @@ class Contact extends Component {
     return (
       <div>
         <Navbar />
-        <Jumbotron title="Contact" subtitle="Contact Steve"/>
+        <Jumbotron title="Contact" subtitle="Contact Steve" />
         <div className="container">
           <h2>Contact</h2>
           <p>
@@ -42,7 +42,7 @@ class Contact extends Component {
             Rackham.
           </p>
         </div>
-        <Footer/>
+        <Footer />
       </div>
     );
   }
