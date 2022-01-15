@@ -12,7 +12,7 @@ class Links extends React.Component {
         <a
           className="link"
           href="https://github.com/stevenshow"
-          target="_blank"
+          target="_blank" rel="noreferrer"
         >
           <img src={gitLogo} height="30" width="30" />
         </a>
@@ -20,7 +20,7 @@ class Links extends React.Component {
         <a
           className="link"
           href="https://www.linkedin.com/in/steven-schoebinger/"
-          target="_blank"
+          target="_blank" rel="noreferrer"
         >
           <img src={linkedLogo} height="30" width="30" />
         </a>
