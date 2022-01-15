@@ -5,8 +5,7 @@ import linkedLogo from "../images/linkedin.png";
 
 import "./Links.css";
 
-class Links extends React.Component {
-  render() {
+const Links = () =>{
     return (
       <div>
         <a
@@ -28,6 +27,6 @@ class Links extends React.Component {
       </div>
     );
   }
-}
+
 
 export default Links;
