@@ -1,9 +1,11 @@
-import React, { Component } from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 import logo from "../images/s_logo.png";
 
 const Navbar = () => {
+    const [active, setActive] = useState(false);
+  
     return (
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container">
@@ -26,10 +28,10 @@ const Navbar = () => {
               <Link className="nav-item nav-link active" to="/">
                 Home <span className="sr-only">(current)</span>
               </Link>
-              <Link className="nav-item nav-link" to="/projects">
+              <Link className="nav-item nav-link" to="/projects" onClick={() => setActive(active), console.log(active)}>
                 Projects
               </Link>
-              <Link className="nav-item nav-link" to="/about">
+              <Link className="nav-item nav-link" to="/about" onClick={() => setActive(active), console.log(active)}>
                 About
               </Link>
               <Link className="nav-item nav-link" to="/contact">
