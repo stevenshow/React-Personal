@@ -14,16 +14,16 @@ const Links = () =>{
           target="_blank" rel="noreferrer"
         >
           <img src={gitLogo} height="30" width="30" />
-        </a>
         <span>stevenshow</span>
+        </a>
         <a
           className="link"
           href="https://www.linkedin.com/in/steven-schoebinger/"
           target="_blank" rel="noreferrer"
         >
           <img src={linkedLogo} height="30" width="30" />
-        </a>
         <span>steven-schoebinger</span>
+        </a>
       </div>
     );
   }
